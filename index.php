@@ -18,17 +18,19 @@
             <div class="container">
                 <form id="homeloan">
                     <div class="contentform">
-                        <h1>Compare <span>Home Loans</span> &amp; Save</h1>
+                        <h1>Compare <span>Home Loans</span> &amp; Save!</h1>
                         <div class="row">
                             <div class="col-xs-12 col-sm-5 col-lg-4 col-sm-push-1 col-lg-push-2">
                                 <div class="loan loan1"> 
-                                    <img src="image/puchase_ico.png">
+                                    <img class="hidden-xs" src="image/puchase_ico.png">
+                                    <img class="visible-xs" src="image/puchase_ico_mobile.png">
                                     <div class="lowertext"><span>Purchase</span> a home or move</div>
                                 </div>
                             </div>
                             <div class="col-xs-12 col-sm-5 col-lg-4 col-sm-push-1 col-lg-push-2">
                                 <div class="loan loan2"> 
-                                    <img src="image/refinance_ico.png">
+                                    <img class="hidden-xs" src="image/refinance_ico.png">
+                                    <img class="visible-xs" src="image/refinance_ico_mobile.png">
                                     <div class="lowertext"><span>Refinance</span> or renovate</div>
                                 </div>
                             </div>
@@ -71,7 +73,7 @@
                             <img src="image/lenders_icon4.png">
                             <img src="image/lenders_icon5.png">
                             <img src="image/lenders_icon6.png">
-                            <img src="image/lenders_icon7.png">
+                            <img class="hidden-xs hidden-sm" src="image/lenders_icon7.png">
                         </div>
                         <div class="award">                            
                             <div class="awardsec">
@@ -89,7 +91,7 @@
         </section>
 
         <section class="section3">
-            <div class='imagesection'><img src="image/rate_bg.png"></div>
+            <div class='imagesection'><img class="img-responsive" src="image/rate_bg.png"></div>
             <div class="col-xs-12 col-sm-6">
                 <h2 class="powered">Affordable Rate</h2>
                 <p>
@@ -108,7 +110,7 @@
         <section class="section4">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-6">
+                    <div class="col-xs-12 col-sm-12 col-lg-6">
                         <h2 class="powered">Customer Review</h2>
                         <div class="review_single">
                             <div class="topreview">
@@ -118,30 +120,31 @@
                                     <p>Out of 5</p>
                                 </div>
                                 <p>
-                                    Over 95% of our customers recommend us on Product Review Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id malesuada tortor.    
+                                    Over 95% of our customers recommend us on Product Review 
+                                    <span class="hidden-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id malesuada tortor.</span>    
                                 </p>
                             </div>                 
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-6">
+                    <div class="col-xs-12 col-sm-12 col-lg-6">
                         <div class="review_list">
                             <div class="sec_reviewlist">
                                 <h3 class="name">Smooth process</h3>
-                                <div class="starlist"><img src="image/star_icon.png"> <span>by Jeff on 8-4-2017</span></div>
+                                <div class="starlist"><img src="image/star_list.png"> <span>by Jeff on 8-4-2017</span></div>
                                 <p>
                                     Jarryd was instrumental in making sure everything ran smoothly for us. He was readily available to answer any questions we asked. Was a pleasure to...    
                                 </p>
                             </div>
                             <div class="sec_reviewlist">
                                 <h3 class="name">Been great for us!</h3>
-                                <div class="starlist"><img src="image/star_icon.png"> <span>by Jeff on 8-4-2017</span></div>
+                                <div class="starlist"><img src="image/star_list.png"> <span>by Jeff on 8-4-2017</span></div>
                                 <p>
                                     Kristy was very responsive & professional. She was able to describe the product extremely well & clarified willingly when we didn't quite get it! W...    
                                 </p>
                             </div>
                             <div class="sec_reviewlist">
                                 <h3 class="name">Easy transition</h3>
-                                <div class="starlist"><img src="image/star_icon.png"> <span>by Jeff on 8-4-2017</span></div>
+                                <div class="starlist"><img src="image/star_list.png"> <span>by Jeff on 8-4-2017</span></div>
                                 <p>
                                     Mina Moussa has been very helpful throughout the loan process. It was easy to get in touch with him either by phone or email when we had questions ...   
                                 </p>
